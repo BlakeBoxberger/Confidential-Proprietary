@@ -1,2 +1,2 @@
 # Confidential-Proprietary
-Adds a label to the iPhone X's lock screen
+Add cool text to your lock screen.
