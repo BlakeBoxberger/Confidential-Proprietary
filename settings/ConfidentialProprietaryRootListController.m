@@ -16,9 +16,8 @@
 	return @"I'm using #Confidential&Proprietary by @NeinZedd9 to add text to my iPhone's lockscreen!";
 }
 
-- (void)respring {
+- (void)dismiss {
 	[[UIApplication sharedApplication] sendAction:@selector(resignFirstResponder) to:nil from:nil forEvent:nil]; // Dismisses keyboard
-	[HBRespringController respringAndReturnTo:[NSURL URLWithString:@"prefs:root=ConfidentialProprietary"]];
 }
 
 @end
