@@ -1,3 +1,8 @@
+DEBUG = 0
+FINALPACKAGE = 1
+
+ARCHS = armv7 armv7s arm64 arm64e
+
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = ConfidentialProprietary
